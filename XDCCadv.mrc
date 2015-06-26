@@ -2,8 +2,10 @@
 ; Script Name:     XDCCadv (v1.0) Basic
 ; Created by:      Rand (#NIBL @ Rizon)
 ;
-; Usage: /load -rs scripts\XDCCadv.mrc
-; Puts all XDCC announces from XDCC bots located in #NIBL its own Query window, cleaning up the chat
+; Usage: Place into mIRC script folder (Should be C:\Users\username\AppData\Roaming\mIRC\scripts
+;        /load -rs scripts\XDCCadv.mrc
+;        
+; Description: Puts all XDCC announces from XDCC bots located in #NIBL into its own Query window, cleaning up the chat
 ; and makingi t easier for you to catch what you want.
 
 on ^*:text:*:#nibl:{
